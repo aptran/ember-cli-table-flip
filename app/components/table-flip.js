@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-table-flip/components/table-flip';
