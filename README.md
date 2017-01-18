@@ -5,6 +5,12 @@
 
 Inspired by: [Shrug Guy](https://github.com/blimmer/ember-cli-shrug)
 
+## Usage
+
+```handlebars
+{{table-flip}}
+```
+
 ## Installation
 
 * `git clone <repository-url>` this repository
