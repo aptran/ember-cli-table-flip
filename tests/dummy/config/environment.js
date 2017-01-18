@@ -43,7 +43,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.baseURL = '/ember-cli-table-flip';
+    ENV.locationType = 'hash';
+    ENV.rootURL = '/ember-cli-table-flip/';
   }
 
   return ENV;
