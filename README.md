@@ -1,6 +1,9 @@
-# Ember-cli-table-flip
+# ember-cli-table-flip
 
-This README outlines the details of collaborating on this Ember addon.
+(╯°□°）╯︵ ┻━┻
+
+
+Inspired by: [Shrug Guy](https://github.com/blimmer/ember-cli-shrug)
 
 ## Installation
 
