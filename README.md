@@ -2,6 +2,7 @@
 
 (╯°□°）╯︵ ┻━┻
 
+[Demo](https://aptran.github.io/ember-cli-table-flip/)
 
 Inspired by: [Shrug Guy](https://github.com/blimmer/ember-cli-shrug)
 
