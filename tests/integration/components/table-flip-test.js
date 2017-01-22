@@ -6,20 +6,13 @@ moduleForComponent('table-flip', 'Integration | Component | table flip', {
 });
 
 test('it renders', function(assert) {
-
-  // Set any properties with this.set('myProperty', 'value');
-  // Handle any actions with this.on('myAction', function(val) { ... });
-
   this.render(hbs`{{table-flip}}`);
+  assert.equal(this.$().text().trim(), '(╯°□°）╯︵ ┻━┻',
+    'it renders the default emoticon style');
 
-  assert.equal(this.$().text().trim(), '');
+  this.set('emoticonStyle', 'reset');
+  this.render(hbs`{{table-flip emoticonStyle=emoticonStyle}}`);
+  assert.equal(this.$().text().trim(), '┬─┬ ︵ ノ(°_° ノ)',
+    'it renders the reset emoticon style');
 
-  // Template block usage:
-  this.render(hbs`
-    {{#table-flip}}
-      template block text
-    {{/table-flip}}
-  `);
-
-  assert.equal(this.$().text().trim(), 'template block text');
 });

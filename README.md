@@ -8,8 +8,16 @@ Inspired by: [Shrug Guy](https://github.com/blimmer/ember-cli-shrug)
 
 ## Usage
 
+Default style
+
 ```handlebars
 {{table-flip}}
+```
+
+Put the table back
+
+```handlebars
+{{table-flip emoticonStyle='reset'}}
 ```
 
 ## Installation
